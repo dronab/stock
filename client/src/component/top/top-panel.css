@@ -1,0 +1,11 @@
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+
+.file-container {
+    margin-top: 15px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.file-item {
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    margin-bottom: 1px;
+}
+.file-item:hover {
+    background: #d5d5d5;
+}
+.item-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-button {
+    padding: 8px;
+}
