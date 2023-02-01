@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    padding: 8px;
+    margin: 10px 10px 5px 10px;
+    box-shadow: rgb(0 9 61 / 12%) 0px 4px 8px 0px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 222px;
+    position: absolute;
+    top: 33px;
+    border-radius: 5px;
+}

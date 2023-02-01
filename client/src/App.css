@@ -1,0 +1,14 @@
+.App {
+    /* height: 95vh; */
+}
+
+
+
+.Page-Container {
+    padding-top: 26px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    /* height: 90vh;*/
+}

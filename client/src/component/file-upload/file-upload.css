@@ -1,0 +1,32 @@
+
+.upload-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custom-file-upload {
+    display: flex;
+    /* border: 1px solid #ccc; */
+    /* display: inline-block; */
+    /* padding: 6px 12px; */
+    cursor: pointer;
+    /* background-image: url(./attach.svg); */
+    flex-direction: row;
+    align-items: center;
+}
+
+.upload-button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    background-color: #ffd3d3;
+    color: #606060;
+    cursor: pointer;
+    box-shadow: rgb(0 9 61 / 12%) 0px 4px 8px 0px;
+    padding: 8px;
+    margin-left: 10px;
+}

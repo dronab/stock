@@ -1,0 +1,30 @@
+{
+  "name": "yew-storage",
+  "version": "0.0.1",
+  "description": "Yew backend microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "start1": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Andrey_b",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "multer": "^1.4.4",
+    "nanoid": "^4.0.0",
+    "pouchdb": "^8.0.0",
+    "pouchdb-core": "^8.0.0",
+    "pouchdb-find": "^8.0.0"
+  }
+}

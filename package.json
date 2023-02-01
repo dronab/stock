@@ -1,0 +1,20 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "Stock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run start\" \"cd client && npm run start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.0.8:3000/andrey/stock.git"
+  },
+  "keywords": [],
+  "author": "Andrey Borisovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

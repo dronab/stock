@@ -1,0 +1,55 @@
+/* Белая кнопка с тонкими границми */
+.Button-Outline {
+    border: 1px solid #c7c7c7;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    background-color: #ffffff;
+    /* color: #fff; */
+    cursor: pointer;
+    /* box-shadow: rgb(0 9 61 / 20%) 0px 4px 8px 0px; */
+    padding: 10px;
+    margin-right: 10px;
+}
+.Button-Outline:hover {
+    background-color: #e0eaf3;
+}
+
+/* Кнопка с заливкой */
+.Button-Normal {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    background-color: #5086bd;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgb(0 9 61 / 20%) 0px 4px 8px 0px;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+.Button-Normal:hover {
+    background-color: #6598ca;
+}
+.Button-Normal:active {
+    transform: translateY(1px);
+}
+
+
+/* Серая кнопка */
+/* .back 
+    border: 1px solid #c7c7c7;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    background-color: #ffffff;
+    /* color: #fff; */
+    /* box-shadow: rgb(0 9 61 / 20%) 0px 4px 8px 0px; */
+    /* cursor: pointer; */
+    /* padding: 10px; */
+    /* margin: 0px 10px; */
+
+/* .back:hover {
+    background-color: #e0eaf3;
+} */

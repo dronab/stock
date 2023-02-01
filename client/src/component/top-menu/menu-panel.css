@@ -1,0 +1,26 @@
+.Menu-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: rgb(0 9 61 / 12%) 0px 4px 10px 0px;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.Back-Space {
+    width: 78px;
+    margin-left: 10px;
+}
+.AddAndCart-Space {
+    width: 185px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Menu-Logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #262626;
+}
