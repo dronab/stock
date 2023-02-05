@@ -1,9 +1,15 @@
 import PouchDb from "pouchdb";
 import PouchFind from 'pouchdb-find';
-
 PouchDb.plugin(PouchFind)
 
+import { fileURLToPath } from 'url';
+import path from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+import { unlink } from 'node:fs/promises';
+
 const db = new PouchDb('../stock-storage');
+const distFiles = path.resolve(__dirname, '../stock-storage-files');
 
 export async function getComponents(props = { text: null }) {
     if (!props.text) {
@@ -75,6 +81,16 @@ export async function deleteComponent(id, rev) {
     } catch (err) {
         console.log(err);
         return { error: err }
+    }
+}
+
+export async function deleteAttachedFile(id, name) {
+    const fullPatch = path.resolve(distFiles, id, name);
+    try {
+        await unlink(fullPatch);
+        return {code: 200, msg: 'Файл успешно удален', path: fullPatch};
+    } catch (error) {
+        return {code: 500, msg: error, path: fullPatch}
     }
 }
 

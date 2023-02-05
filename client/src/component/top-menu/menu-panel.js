@@ -10,7 +10,7 @@ function TopMenu() {
         navigate(-1);
     }
     function addClick() {
-        navigate('/item');
+        navigate('/part');
     }
     function cartClick() {
         navigate('/cart');

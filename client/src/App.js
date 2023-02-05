@@ -29,8 +29,8 @@ function App() {
         <div className='Page-Container'>
           <Routes>
             <Route path="/" element={<MainScreen />} />
-            <Route path="/item/:id" element={<Item />} />
-            <Route path="/item/" element={<Item />} />
+            <Route path="/part/" element={<Item />} />
+            <Route path="/part/:id" element={<Item />} />
             <Route path="*" element={<Oops />} />
             <Route path='/cart' element={<CartList />} />
           </Routes>

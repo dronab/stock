@@ -6,7 +6,7 @@ function ListComponents({ data }) {
     const navigate = useNavigate();
 
     function openClick(props) {
-        navigate(`/item/${props}`);
+        navigate(`/part/${props}`);
     }
 
     return (

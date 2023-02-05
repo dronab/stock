@@ -27,12 +27,6 @@ const packageType = [
     { id: 2, text: 'SOIC8' },
     { id: 3, text: 'SOT-23-5' },
 ];
-const dataList = [
-    { id: 5424, text: 'Даташит.pdf' },
-    { id: 24546, text: 'Схема.img' },
-    { id: 56, text: 'Минимальная обвязка.txt' },
-    { id: 224, text: 'Длинное название файла.txt' }
-];
 
 function Item() {
     const params = useParams();
@@ -163,8 +157,8 @@ function Item() {
 
             </div>
             <div>
-                <Uploader addFile={addFile} uploadFileList={uploadFileList} />
-                <FileList data={dataList} />
+                <Uploader addFile={addFile} uploadFileList={uploadFileList} idDoc={params.id} />
+                <FileList />
             </div>
         </div>
     )
